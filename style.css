@@ -87,19 +87,21 @@ hr {
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-    /* color: rgb(0, 0, 0); */
-    /* color: linear-gradient(to right, #30CFD0 0%, #330867 100%); */
+}
+.hero-text p.hero_desc{
+    font-size: 25px;
+    background: -webkit-linear-gradient(rgb(222, 203, 107), rgb(201, 159, 53), red);
+    -webkit-background-clip: text;
+    background-clip:calc(0);
+    -webkit-text-fill-color: transparent; margin-top: 0px; font-weight: bold;
 }
 
 .navbar-nav.ms-auto .nav-item .nav-link {
-    color: rgba(234, 67, 21, 0.948);
+    color: red;
     padding: 1.0em;
     transition: transform 250ms;
 }
 .nav-link:hover {
-    /* -webkit-box-shadow: 0 0 20px rgb(0, 0, 0); */
-    /* box-shadow: 0 0 20px rgb(0, 0, 0); */
-    /* border: solid black 2px; */
     padding: .1em;
     transform: translateY(-10px);
 }
@@ -112,7 +114,6 @@ hr {
 
 /* about me css---------------------------------------------------------------- */
 .d-block {
-    /* display: block!important; */
     border: solid rgb(255, 166, 0) 10px;
     border-radius: 20%;
 }
@@ -196,29 +197,11 @@ hr {
     border: 5px solid rgb(231 65 19);
 }
 
-/* Footer section css----------------------------- */
-.btn.btn-primary.btn-floating.m-1{
-    border-radius: 30%;
-    padding: 8px 13px;
-    align-items: center;
-    /* display: flex; */
-    width: 42px;
-    /* height: 100px; */
-    /* box-shadow: none; */
+.btn-success-certificate img{
+    width: 100%;
 }
-.fa-facebook-f:before {
-    margin-left: 2px;
-    margin-right: 2px;
-}
-a.btn.btn-primary.btn-floating.m-1:hover{
-    cursor: pointer;
-    -webkit-box-shadow: 0 0 20px rgb(0, 0, 0);
-        box-shadow: 0 0 20px rgb(0, 0, 0);
-}
-.face{
-    color: black;
-    display: flex;
-    justify-content: center;
+.btn-successProject img{
+    width: 100%;
 }
 p {
     margin-top: 0;
@@ -228,45 +211,59 @@ p {
 }
 p.card-text{
     color: darkgrey;
-    /* color: aliceblue; */
 }
-/* .text-center.p-3{
-background-color: black;
-} */
 
+.p-3{
+    background-color: black;
+}
 
+/* footer--------------------------------------------------- */
+.mb-4{
+    background-color: black;
+}
 
+#facebook{
+    background:linear-gradient(120deg, #3b5998, lightblue);
+}
+#twitter{
+    background-color: #55acee;
+}
+#instagram{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
+#linkedin{
+    background:linear-gradient(45deg, #0077b5, #00a0dc);
+}
+#github{
+    background-color: #333333;
+}
+#whatsapp{
+    background-color: #00f521;
+}
+.footer{
+    background-color: black;
+}
+.footer:hover{
+    background-color: black;
+}
+.textcopy{
+    color: red;
+}
+.m-1{
+    border-radius: 30%;
+    padding: 8px 13px;
+    align-items: center;
+    width: 42px;
 
-
-
-
-
-
-
+}
+.m-1:hover{
+    cursor: pointer;
+    -webkit-box-shadow: 0 0 30px rgb(255, 255, 255);
+        box-shadow: 0 0 30px rgb(255, 255, 255);
+}
+.m-1{
+    margin: 1.25rem;
+    padding: .5rem .5rem;
+}
 
 @import url('https://fonts.googleapis.com/css?family=Raleway')
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
