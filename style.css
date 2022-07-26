@@ -65,7 +65,7 @@ hr {
 
 /* hero background image */
 .bgimage {
-    height:110vh;
+    height: 105vh;
     background: url('HeroImage1.png');
     background-size:cover;
     position:relative;
@@ -281,6 +281,9 @@ p.card-text{
     .col-lg-3.mt-4{
         width: 33.33%;
     }
+    .bgimage{
+        height: 100vh;
+    }
 }
 
 @media only screen and (max-width: 990.5px) {
@@ -291,7 +294,9 @@ p.card-text{
         font-size: .7rem;
     }
 
-   
+    .bgimage{
+        height: 90vh;
+    }
     .col-lg-3.mt-4{
         width: 50%;
     }
@@ -317,6 +322,9 @@ p.card-text{
     .col-lg-5.mt-lg-3{
         width: 50%;
         margin-top: 2%;
+    }
+    .bgimage{
+        height: 75vh;
     }
 }
 
@@ -347,6 +355,9 @@ p.card-text{
     .col-lg-4.mt-4{
         width: 100%;
      }
+     .bgimage{
+        height: 60vh;
+    }
 }
 /* min-width-------------------------------------------------------------------- */
 @media screen and (min-width: 1200px) {
