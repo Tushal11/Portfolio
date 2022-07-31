@@ -66,7 +66,7 @@ hr {
 /* hero background image */
 .bgimage {
     height: 105vh;
-    background: url('HeroImage1.png');
+    background: url('nimbara_heroImage3.png');
     background-size:cover;
     position:relative;
 }
@@ -80,7 +80,7 @@ hr {
     font-size: 2rem;
 }
 .hero-text {
-    text-align: center;
+    text-align: right;
     position: absolute;
     top: 40%;
     left: 50%;
@@ -270,10 +270,10 @@ p.card-text{
 
 @media screen and (max-width: 1199.5px) {
     .hero_title{
-        font-size: 4rem;
+        font-size: 5rem;
     }
     .hero-text p.hero_desc{
-        font-size: 1.4rem;
+        font-size: 1.8rem;
     }
     .col-lg-4.mt-4{
         width: 33.33%;
@@ -288,15 +288,15 @@ p.card-text{
 
 @media only screen and (max-width: 990.5px) {
     .hero_title{
-        font-size: 3rem;
+        font-size: 3.5rem;
     }
     .hero-text p.hero_desc{
-        font-size: .7rem;
+        font-size: .9rem;
     }
 
-    .bgimage{
+    /* .bgimage{
         height: 90vh;
-    }
+    } */
     .col-lg-3.mt-4{
         width: 50%;
     }
@@ -355,6 +355,22 @@ p.card-text{
     .col-lg-4.mt-4{
         width: 100%;
      }
+     .bgimage{
+        height: 60vh;
+    }
+}
+@media only screen and (max-width: 466px) {
+    .hero_title{
+        font-size: 1.9rem;
+    }
+    .hero-text p.hero_desc{
+        font-size: .4rem;
+        background: -webkit-linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0));
+        -webkit-background-clip: text;
+        background-clip:calc(0);
+        -webkit-text-fill-color: transparent; margin-top: 0px; font-weight: bold;
+    }
+
      .bgimage{
         height: 60vh;
     }
